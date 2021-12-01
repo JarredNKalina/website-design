@@ -1,8 +1,54 @@
 body{
+ font-family: "Sanchez";
+    margin: 10%;
+    
+}
 
+div{
+    display: block;
 }
 
 .container{
     border: 2px solid rgb(190, 190, 190);
     margin: 10px auto;
+    padding: 10px;
+}
+
+.color-panel{
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+    
+}
+
+.light-blue{
+    background-color: #A7E4F8;
+}
+
+.salmon{
+    background-color:#fa8072;
+}
+
+.darkgreen{
+    background-color:#2AA63D;
+}
+
+.tope{
+    background-color:#cabda1 ;
+}
+.font-panel-martel{
+    font-family: 'Martel', serif;
+
+}
+
+.font-panel-pt-sans-narrow{
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 25px;
+
+}
+
+.font-panel-sanchez{
+    font-family: 'Sanchez', serif;
 }
